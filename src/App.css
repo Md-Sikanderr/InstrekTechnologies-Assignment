@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1518770660439-4636190af475")
+      no-repeat center center/cover;
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hero .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 0, 0, 0.774);
+  color: white;
+}
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1451187580459-43490279c0fa")
+      no-repeat center center/cover;
+  /* position: relative; */
+  color: white;
+}
+.strength h3::after {
+  content: "";
+  display: block;
+  background-color: orangered;
+  width: 60px;
+  height: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.services h3::after {
+  content: "";
+  display: block;
+  background-color: orangered;
+  width: 60px;
+  height: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.card {
+  background: #fff;
+  overflow: hidden;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.card img {
+  object-fit: cover;
+  height: 120px;
+}
+.stat-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+.stat-box h2 {
+  color: #ff4c4c;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.stat-box p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.contact-box .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 0, 0, 0.774);
+  color: white;
+}
